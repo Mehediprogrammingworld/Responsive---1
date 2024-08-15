@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@media screen and (max-width: 576px){
+    /* header section style here */
+    *{
+        margin: 0 ;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .header{
+        width: 100%; 
+        margin: 0 auto;
+    }
+    .burger{
+        display: block; 
+    }
+    .nav-links{
+        display: none;
+    }
+    .get-all-img{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        
+    }
+    .left-get{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .title{
+        max-width: 100%;
+        margin: 0 auto;
+        font-size: 3rem;
+        
+    }
+    .span1{
+        font-weight: 400;
+        font-size: 5rem;
+    }
+    .left-get{
+        max-width: 100%;
+    }
+    .btn-primary{
+       max-width: 100%;
+        padding-top: 20px;
+        margin: 0 auto;
+        display: flex;
+        gap: 10px; 
+    }
+    .btn1 {
+        width: 250px;
+        margin: 0 auto;
+        font-size: 0.7rem; 
+    }
+    .btn2{
+        width: 250px;
+        margin: 0 auto;
+        font-size: 0.7rem;
+    }
+    .right-img{
+        max-width: 95%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .right-img{
+        position: relative;
+    }
+    .right-img img{
+        max-width: 100%;
+        height: 400px;
+    }
+    .btn3{
+        position: absolute;
+        right: -73px;
+        top: 110px
+    }
+    .bitto{
+        position: absolute;
+        left: -50px;
+        bottom: 60px;
+    }
+    .bitto .cirsule{
+        display: none;
+    }
+    .bitto .cirsule1{
+        width: 40px;
+        height: 40px;
+        background-image: url(./images/Screenshot\ .png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+
+    }
+
+    .btn3{
+        width: 190px;
+    }
+    .bitto{
+        width: 190px;
+    }
+
+    /* card desgin responsiv */
+    .all-card{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .card-title{
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1.6rem;
+        
+    }
+   .card img{
+    margin-top: 20px;
+   }
+    
+
+   /* description section responsive start here */
+    .description{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+        height: 820px;
+        margin-top: 40px;
+        padding: 20px 10px 20px 10px;
+    
+    }
+    .card1{
+       max-width: 100%;
+        /* margin-left: 0px; */
+    
+    }
+    .head{
+        max-width: 340px;
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+    .pera{
+        padding-top: 20px;
+        text-align: justify;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+
+    .btn{
+        width: 100%;
+        text-align: center;
+    }
+    .card2{
+        max-width: 100%;
+    } 
+    .image{
+        width: 300px;
+        margin-top: 30px;
+    }  
+        
+   
+
+    /* training section style start here */
+    .traning-section{
+        width: 100%;
+        margin: 10px auto;
+        
+    }
+    .img-section{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .div1{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: auto auto
+    }
+    .img1{
+        width: 230px;
+        height: 150px;
+    }
+    .img2{
+        width: 200px;
+        height: 150px;
+        margin-left: -100px;
+    }
+    .img3, .img3 >h5{
+        display: none;
+    }
+    .div2{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: auto auto
+    }
+    .img4{
+        width: 230px;
+        height: 150px;
+    }
+    .img5{
+        width: 200px;
+        height: 150px;
+        margin-left: -100px;
+    }
+    .img6, h5{
+        display: none;
+    }
+
+    /* start table and input form section */
+    .table-header-title{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .bmi{
+        width: 80%;
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+   .we{
+        width: 80%;
+        margin: 0 auto;
+   }
+   .table-section{
+        width: 100%;
+        margin: 0 auto;
+   }
+    .table-section1{
+        width: 100%;
+        flex-direction: column;
+    }   
+    .left-side1{
+       width: 100%; 
+    }
+    .table-title1{
+        width: 200px;
+        margin: 0 auto;
+        font-size: 1rem;
+        
+    }
+   
+    .table{
+       width: 300px;
+    }
+    
+     .right-side3{
+        max-width: 100%;
+        margin-top: 30px; 
+    } 
+    .input-title{
+        max-width: 300px;
+        font-size: 1rem;
+    }
+    .input-desc{
+        max-width: 500px;
+    }
+    .form{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .input1{
+        width:100% ;
+        margin: 0 auto;
+        align-items: center;
+      
+    }
+    .input1 input{
+      width: 100%; 
+      margin: 0 auto;   
+    } 
+
+    .btn-primary1 button{
+        width: 80%;
+    }
+   
+    
+    /*meet section responsive start here */
+    img-section{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 6fr);
+    }
+    .img-section-heading{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .img-header{
+        max-width: 90%;
+        margin: 0 auto;
+        font-size:  1.5rem;
+    }
+    .section{
+        width: 90%;
+        position: relative;
+       
+    }
+    .title1{
+        position: absolute;
+        bottom:200px;
+        left: 10px;
+        height: 50%;
+        width: 80%;
+    }
+    .section1{
+        width: 90%;
+        position: relative;
+       
+    }
+    .title1{
+        position: absolute;
+        bottom:200px;
+        left: 10px;
+        height: 50%;
+        width: 80%;
+    }
+    .section2{
+        width: 90%;
+        position: relative;
+       
+    }
+    .title1{
+        position: absolute;
+        bottom:200px;
+        left: 10px;
+        height: 50%;
+        width: 80%;
+    }
+    .section3{
+        width: 90%;
+        position: relative;
+       
+    }
+    .title1{
+        position: absolute;
+        bottom:200px;
+        left: 10px;
+        height: 50%;
+        width: 80%;
+    }
+    .section4{
+        width: 90%;
+        position: relative;
+       
+    }
+    .title1{
+        position: absolute;
+        bottom:200px;
+        left: 10px;
+        height: 50%;
+        width: 80%;
+    }
+    .section5{
+        width: 90%;
+        position: relative;
+       
+    }
+    .title1{
+        position: absolute;
+        bottom:200px;
+        left: 10px;
+        height: 50%;
+        width: 80%;
+    }
+    /* footer section responsive */
+    .footer1{
+        width: 100%;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .footer-fitness{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .footer-getall{
+        width: 100%;
+       
+        flex-direction: column;
+      
+        padding: 10px;
+    }
+    .footer-getall{
+        flex-direction: column;
+    }
+     .footer-desc p{
+       width: 90%;
+       
+    }
+
+    hr{
+        text-align: center;
+        width: 90%;
+        justify-content: center;
+        
+    } 
+}

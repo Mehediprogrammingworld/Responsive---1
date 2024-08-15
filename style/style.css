@@ -1,0 +1,948 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background: rgb(0, 0, 0);
+}
+/* naver style start here */
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    max-width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.header {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.logo{
+    color: rgb(230, 83, 60);
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 120%;
+   
+}
+.home{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+.nav-links li {
+    padding: 0px 10px;
+}
+.nav-links li a {
+    /* color: #fff; */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+.burger {
+    display: none; 
+    cursor: pointer;
+}
+
+.burger .line {
+    width: 25px;
+    height: 3px;
+    background-color: #423d3d;
+    margin: 5px;
+}
+
+/* start-section style here */
+.get-all-img{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+   
+}
+
+.left-get {
+    max-width: 50%;
+    margin-top: 50px;
+}
+
+.title{
+    max-width: 100%;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    
+}
+.span1{
+    font-family: "Great Vibes", cursive;
+    font-size: 7rem;
+    font-weight: 900;
+}
+.left-get .desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 24px;
+}
+.btn-primary{
+    margin-top: 24px;
+}
+ .btn1{
+    max-width: 224px;
+    border-radius: 20px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    border-style: none;
+    padding: 10px;
+} 
+.btn2{
+    max-width: 224px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 22px;
+    border-style: none;
+    padding: 10px;
+    background-color: #222222;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.right-img{
+    max-width: 40%;
+    margin: 0 auto;
+    margin-top: 44px;
+    margin-left: 100px;
+    position: relative;
+}
+.right-img img{
+    max-width: 340px;
+    height: 500px;
+}
+.btn3{
+    position: absolute;
+    right: -70px;
+    top: 100px
+}
+.bitto{
+    position: absolute;
+    bottom: 55px;
+    left: -100px;
+}
+.btn3{
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn3 > h3{
+    border-style: none;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;  
+}
+.btn3 span{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.bitto{
+    width: 193px;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+
+.bitto .cirsule{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn4{
+    margin-left: 10px;
+}
+
+.btn4 h3{
+    color: rgb(250, 250, 249);
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+.btn4 span{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+/* start card section style here */
+ .card-design{
+    max-width: 80%;
+    margin: 0 auto;  
+} 
+   
+.card-header{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.card-title{
+    max-width: 476px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;  
+}
+.card-desc{
+   max-width:671px ;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.all-card{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 54px;
+}
+
+.card img{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    
+    
+}
+.card-header1{
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 24px; 
+    text-align: center;
+}
+.card-pragraph{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+} 
+
+
+/* start description area style here */
+.description{
+    max-width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);  
+   }  
+.card1{
+    max-width: 60%;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.head{
+    max-width: 443px;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+   
+}
+.pera{
+    max-width: 443px;
+    margin-top: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.btn{
+    padding: 10px 40px;
+    margin-top: 30px;
+    border-radius: 16px;
+    border-style: none;
+    background-color: tomato;
+    
+}
+.btn-a{
+    text-decoration: none;
+    color: white;
+}
+.card2{
+    width: 20%;
+    margin-left: 500px; 
+    margin-top: 45px;
+   
+}
+.image{
+    max-width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+/* traning section style start here */
+   .traning-section{
+        max-width: 100%;
+        margin: 0 auto;
+        
+    }
+    .traning-head{
+        max-width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+        color: rgb(255, 255, 255);
+        font-size: 2.5rem;
+        font-weight: 900;
+        line-height: 120%;
+    }
+    .traning-desc{
+        max-width: 80%;
+        margin: 0 auto;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        margin-top: 14px;
+    }
+    .img-section1{
+        max-width: 80%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .div1{
+        display: flex;
+    }
+    .div2{
+        display: flex;
+    }
+    .img1{
+        width: 300px;
+        height: 218px;
+        background-image: url(./images/exercise1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .overlay1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(6, 255, 210, 0.5); 
+    }
+    .img1 > h5{
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0px;
+        margin-top: 170px;
+        margin-left: 10px;
+    }
+    .img2{
+        width: 410px;
+        height: 218px;
+        background-image: url(./images/exercise2.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .overlay2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(198, 93, 93, 0.3);
+    }
+    .img2 > h5{
+        color: rgb(219, 215, 215);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0px;
+        margin-top: 17px;
+        margin-left: 10px;
+    }
+    .img3{
+        width: 300px;
+        height: 218px;
+        background-image:  url(./images/exercise3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .overlay3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(76, 66, 66, 0.5),
+    }
+    .img3 > h5{
+        width: 176px;
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 17px;
+        margin-top: 170px;
+        margin-left: 10px;
+    }
+    .img4{
+        width: 390px;
+        height: 218px;
+        background-image: url(./images/exercise4.png);  
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .overlay4{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(107, 45, 45, 0.5),
+    }
+    .img4 > h5{
+        width: 176px;
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0px;
+        margin-left: 180px;
+        margin-top: 10px;
+    }
+    .img5{
+        width: 323px;
+        height: 218px;
+        background-image: url(./images/exercise5.jpg);  
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .overlay5{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(66, 255, 0, 0.3)
+    }
+    .img5 > h5{
+        width: 176px;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0px;
+        margin-left: 20px;
+        margin-top: 170px;
+    }
+    .img6{
+        width: 323px;
+        height: 218px;
+        background-image: url(./images/exercise6.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .overlay6{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 71, 255, 0.3)
+    }
+    .img6 > h5{
+        width: 176px;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0px;
+        margin-left: 20px;
+        margin-top: 170px;
+    }
+ 
+
+     /* start table and input form section */
+     .table-header-title{
+        max-width: 80%;
+        margin: 0 auto;
+        
+     }
+     .bmi{
+        max-width: 353px;
+        margin-left: 300px;
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        margin-top: 50px;
+     }
+     .we{
+        max-width: 670px;
+        margin: 0 auto;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        
+     }
+     .table-section{
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+        background-color: #222222;
+        
+        
+    }
+    .table-section1{
+        max-width: 80%;
+        margin: 0 auto;
+        display: flex;
+        padding: 50px 0;
+        justify-content: space-between;
+
+    }
+    .left-side1{
+        max-width: 40%; 
+    }
+    .table-title1{
+        max-width: 443px;
+        margin: 0 auto;
+        color: rgb(255, 255, 255);
+        font-size: 1.8rem;
+        font-weight: 900;
+        line-height: 120%;
+       
+    
+    }
+    table{
+        max-width: 420px;
+        margin-top: 20px;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px 20px;
+    }
+    th{
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: left;      
+    }
+    td{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    .right-side3{
+        max-width: 60%; 
+    }
+    .input-title{
+        max-width: 100%;
+        color: rgb(255, 255, 255);
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+    .input-desc{
+        max-width: 95%;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        margin-top: 10px;
+        margin-bottom:20px ;
+    }   
+    .form{
+        max-width: 100%;
+        margin: 0 auto;
+       
+    }
+    .input1{
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .input1 input, select{
+        padding: 10px 12px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        border-style: none;
+        color: #757562;
+    }
+    .factor{
+        max-width: 100%;
+        margin-top: 10px;
+
+    }
+    #factor{
+        width: 100%;
+    }
+    .btn-primary1 button{
+        margin-top: 16px;
+        border-radius: 42px;
+        border-style: none;
+        width: 224px;
+        padding: 10px 40px 10px 40px;
+    }
+    .primary1{
+        background: rgb(230, 83, 60);
+    }
+    .btn-primary1 button a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 1.1rem;
+        font-weight: 600;
+        line-height: 22px;
+    } 
+
+
+/* meet section sytle start here */
+.img-section{
+    
+}
+.img-section-heading{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top:20px
+}
+.img-header{
+    max-width: 365px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+      
+}
+.img-section-desc{
+    max-width:670px ;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+img-section{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns:repeat(3, 2fr); 
+}
+.section{
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url(../images/exercise1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+    margin-top: 35px;
+    position: relative;
+    
+}
+.title1{
+    position: absolute;
+    top:0px;
+    left: 10px;
+    height: 10%;
+    width: 80%;
+    opacity: 0.9;
+}
+.section1{
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url(../images/trainer2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+    margin-top: 35px;
+    position: relative;
+}
+.title1{
+    position: absolute;
+    top:0px;
+    left: 10px;
+    height: 10%;
+    width: 80%;
+    opacity: 0.9;
+}
+.section2{
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url(../images/trainer3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+    margin-top: 35px;
+    position: relative;
+}
+.title1{
+    position: absolute;
+    top:0px;
+    left: 1px;
+    height: 10%;
+    width: 100%;
+    opacity: 0.9;
+}
+.section3{
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url(../images/trainer4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+    margin-top: 35px;
+    position: relative;
+}
+.title1{
+    position: absolute;
+    top:0px;
+    left: 10px;
+    height: 10%;
+    width: 80%;
+    opacity: 0.9;
+}
+.section4{
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url(../images/trainer5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+    margin-top: 35px;
+    position: relative;
+}
+.title1{
+    position: absolute;
+    top:0px;
+    left: 10px;
+    height: 10%;
+    width: 80%;
+    opacity: 0.9;
+}
+.section5{
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url(../images/trainer6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+    margin-top: 35px;
+    position: relative;
+}
+.title1{
+    position: absolute;
+    top:0px;
+    left: 10px;
+    height: 10%;
+    width: 80%;
+    opacity: 0.9;
+}
+
+.title1{
+    margin-top: 190px;
+    margin-left: 20px;
+   
+}
+.img-title{
+    font-size: 1.5rem;
+    color: white;
+}
+.trainer{
+    font-size: 1.6rem;
+    color: white;
+   
+}
+
+/* footer style start here */
+.footer{
+    width: 100%;
+    margin: 0 auto;
+    background: #3b3939;
+    
+}
+.footer1{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+
+}
+.footer-fitnes{
+    width: 100%;
+    margin-right: 110px;
+}
+.footer-fitnes .fitnes{
+   width: 100%;
+    color: rgb(230, 83, 60);
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 120%;
+    margin-top: 20px;
+}
+ .footer-desc{
+    width: 100%;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer-getall{
+    display: flex; 
+    width: 100%;
+}
+
+.footer-get{
+    width: 70%;
+    height: 200px;
+    margin-right: 60px;
+}
+.footer-get:nth-child(2){
+    margin-right: 0px;
+}
+.get-start{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.get-start p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 50px;
+    
+}
+
+hr{
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.span{
+    max-width: 1059px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    padding: 30px;
+
+}
